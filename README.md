@@ -52,13 +52,13 @@ With request body:
 	   "bidderLocation": [
         {
             "url": "https://www.google-rtb-test.com/api/rtb",
-            "maximumQps": 0,
+            "maximumQps": 250,
             "region": "US_EAST",
             "bidProtocol": "PROTOCOL_OPENRTB_2_3"
         },
         {
             "url": "https://singapore.google-rtb-test.com/api/rtb",
-            "maximumQps": 500,
+            "maximumQps": 250,
             "region": "ASIA",
             "bidProtocol": "PROTOCOL_OPENRTB_2_3"
         }

@@ -10,7 +10,7 @@ func GetRouter() *gin.Engine {
 	r := gin.New()
 
 	r.GET("/", api.StatusCheck)
-	r.POST("api/rtb", api.Stream)
+	r.POST("api/rtb", api.RtbListener)
 
 	return r
 }

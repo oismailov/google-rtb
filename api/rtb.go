@@ -8,7 +8,7 @@ import (
 	"net/http"
 )
 
-func Stream(c *gin.Context) {
+func RtbListener(c *gin.Context) {
 	var requestBody model.RequestBody
 
 	err := c.BindJSON(&requestBody)

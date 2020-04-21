@@ -1,6 +1,6 @@
 {
   "ServerConfigurations": {
-    "Port": ":80",
+    "Port": ":9000",
     "InstanceName": "google-rtb-aws-us-east-1"
   },
   "Logger": {
